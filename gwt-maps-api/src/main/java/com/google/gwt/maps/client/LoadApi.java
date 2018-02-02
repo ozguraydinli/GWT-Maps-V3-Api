@@ -279,6 +279,7 @@ public class LoadApi {
 
   private static void load(Runnable onLoad, boolean sensor, ArrayList<LoadLibrary> loadLibraries, Language language, String otherParams) {
     String op = "";
+
     if (otherParams != null) {
       op += "&" + otherParams;
     }
